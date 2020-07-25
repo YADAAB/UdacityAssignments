@@ -1,24 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Hello, World</title>
 </head>
 <body>
 <form action="#"  th:object="${chatmessage}" method="POST" th:action="@{/chat}">
-    <label for="username">Username:</label>
-    <input id="username" type="text" name="username" th:field="*{username}">
-
+    <label for="usernm">Usernm:</label>
+    <input id="usernm" type="text" name="usernm" th:field="*{username}">
     <label for="messageText">Message Text:</label>
     <input id="messageText" type="text" name="message" th:field="*{message}">
-
     <label for="messageType">Message Type: </label>
     <select id="messageType" type="text" name="type" th:field="*{type}">
-        <option selected>Say</option>
-        <option>Shout</option>
-        <option>Whisper</option>
+        <option value="say">Say</option>
+        <option value="shout">Shout</option>
+        <option value="whisper">Whisper</option>
     </select>
     <input type="submit">
 </form>
+<td th:each="msg : ${chatexpr}" th:switch="${msg.type}">
+<span th:case="'say'" th:text="${msg.username} + ', ' +${msg.message} + ', ' + ${msg.type}"> </span>
+<span th:case="'shout'" th:text="${#strings.toUpperCase(msg.message)} + ', ' +${msg.username} + ', ' + ${msg.type}"> </span>
+<span th:case="'whisper'" th:text="${#strings.toLowerCase(msg.message)} + ', ' +${msg.username} + ', ' + ${msg.type}"> </span>
+<span th:case="*" th:text="${msg.username} + ', ' +${msg.message} + ', ' + ${msg.type}"></span>
+</td>
+<!-- th:unless="${#lists.size(chatexpr) > 5}"  -->
 </body>
 </html>

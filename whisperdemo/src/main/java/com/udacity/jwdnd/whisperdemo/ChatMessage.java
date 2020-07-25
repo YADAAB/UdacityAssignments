@@ -6,9 +6,9 @@ public class ChatMessage {
     private String message;
 
     public ChatMessage(String username, String type, String message) {
-        this.message = message;
-        this.type = type;
         this.username = username;
+        this.type = type;
+        this.message = message;
     }
 
     public String getUsername() {
@@ -34,7 +34,4 @@ public class ChatMessage {
     public void setMessage(String message) {
         this.message = message;
     }
-
-
-
 }
