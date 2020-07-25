@@ -1,6 +1,5 @@
 package com.udacity.jwdnd.whisperdemo;
 
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,19 +16,22 @@ public class ChatController {
     }
 
     @GetMapping("/chat")
-    public String getChat(@ModelAttribute("chatmessage") ChatMessage cm, Model model)
+    public String getChat(@ModelAttribute("chatform") ChatForm cm, Model model)
     {
-        model.addAttribute("chatexpr", chatservice.getMessages());
+
+        model.addAttribute("chatexpr", this.chatservice.getMessages());
         return "chat";
     }
 
 
     @PostMapping("/chat")
-    public String addChat(@ModelAttribute("chatmessage") ChatMessage cm, Model model)
+    public String addChat(@ModelAttribute("chatform") ChatForm cm, Model model)
     {
         chatservice.addMessage(cm.getUsername(), cm.getType(), cm.getMessage());
-        model.addAttribute("chatexpr", chatservice.getMessages());
+        model.addAttribute("chatexpr", this.chatservice.getMessages());
         cm.setUsername("");
+        cm.setMessage("");
+        cm.setType("");
         return "chat";
     }
 

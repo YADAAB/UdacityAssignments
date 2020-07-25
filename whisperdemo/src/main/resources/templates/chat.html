@@ -5,7 +5,7 @@
     <title>Hello, World</title>
 </head>
 <body>
-<form action="#"  th:object="${chatmessage}" method="POST" th:action="@{/chat}">
+<form action="#"  th:object="${chatform}" method="POST" th:action="@{/chat}">
     <label for="usernm">Usernm:</label>
     <input id="usernm" type="text" name="usernm" th:field="*{username}">
     <label for="messageText">Message Text:</label>
@@ -18,12 +18,8 @@
     </select>
     <input type="submit">
 </form>
-<td th:each="msg : ${chatexpr}" th:switch="${msg.type}">
-<span th:case="'say'" th:text="${msg.username} + ', ' +${msg.message} + ', ' + ${msg.type}"> </span>
-<span th:case="'shout'" th:text="${#strings.toUpperCase(msg.message)} + ', ' +${msg.username} + ', ' + ${msg.type}"> </span>
-<span th:case="'whisper'" th:text="${#strings.toLowerCase(msg.message)} + ', ' +${msg.username} + ', ' + ${msg.type}"> </span>
-<span th:case="*" th:text="${msg.username} + ', ' +${msg.message} + ', ' + ${msg.type}"></span>
+<td th:each="msg : ${chatexpr}">
+<span th:text="${msg.username} + ', ' +${msg.message}"> </span>
 </td>
-<!-- th:unless="${#lists.size(chatexpr) > 5}"  -->
 </body>
 </html>
