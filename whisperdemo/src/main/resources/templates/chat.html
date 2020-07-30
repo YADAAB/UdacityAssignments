@@ -14,9 +14,10 @@
         <option value="shout">Shout</option>
         <option value="whisper">Whisper</option>
     </select>
-    <input type="submit">
+    <input type="submit" id="submit-button">
 </form>
 <div th:each="chatMessage : ${chatexpr}">
-    <span th:text="${chatMessage.username}">Username</span>: <span th:text="${chatMessage.message}">Hello, world!</span>
+    <!--<span id="chatMessage" th:text="${chatMessage.username}">Username</span>: <span th:text="${chatMessage.message}">Hello, world!</span> -->
+    <span id="chatMessage" th:text="${chatMessage.message}">Hello, world!</span>
 </div></body>
 </html>

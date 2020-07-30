@@ -4,7 +4,7 @@ import com.udacity.jwdnd.whisperdemo.DBmapper.MessageMapper;
 import com.udacity.jwdnd.whisperdemo.model.ChatMessage;
 import com.udacity.jwdnd.whisperdemo.model.User;
 import org.springframework.stereotype.Service;
-
+//import static org.junit.jupiter.api.Assertions.assertArrayEm;
 import javax.annotation.PostConstruct;
 import java.util.ArrayList;
 import java.util.List;
