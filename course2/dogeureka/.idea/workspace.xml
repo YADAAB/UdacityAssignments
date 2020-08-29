@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ea2a49aa-65e4-4ffc-91f8-c9a691703e81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../dogrest/src/main/java/com/udacity/course2/dogrest/entity/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dogrest/src/main/java/com/udacity/course2/dogrest/repository/DogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dogrest/src/main/java/com/udacity/course2/dogrest/service/DogNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dogrest/src/main/java/com/udacity/course2/dogrest/service/DogQueryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dogrest/src/main/java/com/udacity/course2/dogrest/service/DogQueryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dogrest/src/main/java/com/udacity/course2/dogrest/web/DogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dogrest/src/main/resources/dog_data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphql/src/main/java/com/udacity/graphql/DogGraphqlApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphql/src/main/java/com/udacity/graphql/entity/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphql/src/main/java/com/udacity/graphql/exception/DogNotFound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphql/src/main/java/com/udacity/graphql/mutator/DogMutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphql/src/main/java/com/udacity/graphql/repository/DogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphql/src/main/java/com/udacity/graphql/resolver/DogQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphql/src/main/java/com/udacity/graphql/service/DogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphql/src/main/resources/data.sqlzzz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphql/src/main/resources/graphql/dogschema.graphqls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../graphql/src/test/java/com/udacity/graphql/DogGraphqlApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../l5e3SeleniumDemo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../l5e3SeleniumDemo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../l5e3SeleniumDemo/src/main/java/com/example/demo/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../l5e3SeleniumDemo/src/main/java/com/example/demo/MessageForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../l5e3SeleniumDemo/src/main/java/com/example/demo/MessageListService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../l5e3SeleniumDemo/src/main/java/com/example/demo/SimpleHomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../l5e3SeleniumDemo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../l5e3SeleniumDemo/src/main/resources/templates/harder-home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../l5e3SeleniumDemo/src/main/resources/templates/simple-home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../l5e3SeleniumDemo/src/test/java/com/example/demo/SeleniumTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__com_h2database_h2_1_4_200.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_33.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_33.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_33.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_springframework_spring_aop_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_springframework_spring_beans_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_springframework_spring_context_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_springframework_spring_core_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_springframework_spring_expression_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_springframework_spring_test_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_springframework_spring_tx_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_springframework_spring_web_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security-basics/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../whisperdemo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../whisperdemo/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../whisperdemo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../whisperdemo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../whisperdemo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../whisperdemo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../whisperdemo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../whisperdemo/src/main/java/com/udacity/jwdnd/whisperdemo/DBmapper/MessageMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../whisperdemo/src/main/java/com/udacity/jwdnd/whisperdemo/DBmapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../whisperdemo/src/main/java/com/udacity/jwdnd/whisperdemo/WhisperdemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../whisperdemo/src/main/java/com/udacity/jwdnd/whisperdemo/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../whisperdemo/src/main/java/com/udacity/jwdnd/whisperdemo/controller/ChatController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../whisperdemo/src/main/java/com/udacity/jwdnd/whisperdemo/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../whisperdemo/src/main/java/com/udacity/jwdnd/whisperdemo/controller/SignupController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../whisperdemo/src/main/java/com/udacity/jwdnd/whisperdemo/model/ChatForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../whisperdemo/src/main/java/com/udacity/jwdnd/whisperdemo/model/ChatMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../whisperdemo/src/main/java/com/udacity/jwdnd/whisperdemo/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../whisperdemo/src/main/java/com/udacity/jwdnd/whisperdemo/service/AuthenticationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../whisperdemo/src/main/java/com/udacity/jwdnd/whisperdemo/service/ChatService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../whisperdemo/src/main/java/com/udacity/jwdnd/whisperdemo/service/HashService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../whisperdemo/src/main/java/com/udacity/jwdnd/whisperdemo/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../whisperdemo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../whisperdemo/src/main/resources/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../whisperdemo/src/main/resources/templates/chat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../whisperdemo/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../whisperdemo/src/main/resources/templates/signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../whisperdemo/src/test/java/com/udacity/jwdnd/whisperdemo/ChatAppTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../whisperdemo/src/test/java/com/udacity/jwdnd/whisperdemo/ChatPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../whisperdemo/src/test/java/com/udacity/jwdnd/whisperdemo/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../whisperdemo/src/test/java/com/udacity/jwdnd/whisperdemo/SignupPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../whisperdemo/src/test/java/com/udacity/jwdnd/whisperdemo/WhisperdemoApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1gf2ev7zKrc42XDTT9KcGCrX0HU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="DogEureka" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.udacity.dogeureka.DogeurekaApplication" />
+      <module name="dogeureka" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea2a49aa-65e4-4ffc-91f8-c9a691703e81" name="Default Changelist" comment="" />
+      <created>1598491424884</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598491424884</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="459" y="145" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598491650271">
+      <screen x="0" y="23" width="1920" height="984" />
+    </state>
+    <state x="459" y="145" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1440.114.1440.877/0.23.1920.984@0.23.1920.984" timestamp="1598491650271" />
+    <state x="732" y="280" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1598491642093">
+      <screen x="0" y="23" width="1920" height="984" />
+    </state>
+    <state x="732" y="280" key="#com.intellij.ide.util.TreeClassChooserDialog/-1440.114.1440.877/0.23.1920.984@0.23.1920.984" timestamp="1598491642093" />
+    <state width="1656" height="325" key="GridCell.Tab.0.bottom" timestamp="1598495910618">
+      <screen x="0" y="23" width="1920" height="982" />
+    </state>
+    <state width="1656" height="325" key="GridCell.Tab.0.bottom/-1440.114.1440.877/0.23.1920.982@0.23.1920.982" timestamp="1598495910618" />
+    <state width="1656" height="432" key="GridCell.Tab.0.bottom/-1440.114.1440.877/0.23.1920.984@0.23.1920.984" timestamp="1598492058003" />
+    <state width="1656" height="355" key="GridCell.Tab.0.bottom/-1440.114.1440.877/0.23.1920.986@0.23.1920.986" timestamp="1598492544816" />
+    <state width="1656" height="325" key="GridCell.Tab.0.center" timestamp="1598495910618">
+      <screen x="0" y="23" width="1920" height="982" />
+    </state>
+    <state width="1656" height="325" key="GridCell.Tab.0.center/-1440.114.1440.877/0.23.1920.982@0.23.1920.982" timestamp="1598495910618" />
+    <state width="1656" height="432" key="GridCell.Tab.0.center/-1440.114.1440.877/0.23.1920.984@0.23.1920.984" timestamp="1598492058003" />
+    <state width="1656" height="355" key="GridCell.Tab.0.center/-1440.114.1440.877/0.23.1920.986@0.23.1920.986" timestamp="1598492544815" />
+    <state width="1656" height="325" key="GridCell.Tab.0.left" timestamp="1598495910618">
+      <screen x="0" y="23" width="1920" height="982" />
+    </state>
+    <state width="1656" height="325" key="GridCell.Tab.0.left/-1440.114.1440.877/0.23.1920.982@0.23.1920.982" timestamp="1598495910618" />
+    <state width="1656" height="432" key="GridCell.Tab.0.left/-1440.114.1440.877/0.23.1920.984@0.23.1920.984" timestamp="1598492058002" />
+    <state width="1656" height="355" key="GridCell.Tab.0.left/-1440.114.1440.877/0.23.1920.986@0.23.1920.986" timestamp="1598492544814" />
+    <state width="1656" height="325" key="GridCell.Tab.0.right" timestamp="1598495910618">
+      <screen x="0" y="23" width="1920" height="982" />
+    </state>
+    <state width="1656" height="325" key="GridCell.Tab.0.right/-1440.114.1440.877/0.23.1920.982@0.23.1920.982" timestamp="1598495910618" />
+    <state width="1656" height="432" key="GridCell.Tab.0.right/-1440.114.1440.877/0.23.1920.984@0.23.1920.984" timestamp="1598492058003" />
+    <state width="1656" height="355" key="GridCell.Tab.0.right/-1440.114.1440.877/0.23.1920.986@0.23.1920.986" timestamp="1598492544815" />
+    <state x="533" y="145" key="Maven.ArtifactSearchDialog" timestamp="1598494836010">
+      <screen x="0" y="23" width="1920" height="982" />
+    </state>
+    <state x="533" y="145" key="Maven.ArtifactSearchDialog/-1440.114.1440.877/0.23.1920.982@0.23.1920.982" timestamp="1598494836010" />
+    <state x="505" y="112" key="new project wizard" timestamp="1598495380554">
+      <screen x="0" y="23" width="1920" height="982" />
+    </state>
+    <state x="505" y="112" key="new project wizard/-1440.114.1440.877/0.23.1920.982@0.23.1920.982" timestamp="1598495380554" />
+  </component>
+</project>
