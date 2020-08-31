@@ -16,14 +16,3 @@ public List<String> getDogNames();
 public String deleteDogById(Long id);
 
 }
-
-/*
-retrieveDogBreed
-retrieveDogBreedById
-retrieveDogNames
-
-a list of Dog breeds
-a list of Dog breeds by Id
-a list of Dog names
-
-* */
