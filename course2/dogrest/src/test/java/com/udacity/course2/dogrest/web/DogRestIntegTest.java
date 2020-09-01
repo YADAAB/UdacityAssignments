@@ -1,5 +1,6 @@
 package com.udacity.course2.dogrest.web;
 
+import com.udacity.course2.dogrest.entity.Dog;
 import org.apache.tomcat.util.codec.binary.Base64;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -39,27 +40,26 @@ public class DogRestIntegTest {
 
         HttpEntity<String> request = new HttpEntity<String>(headers);
         ResponseEntity<String> response = restTemplate.exchange("http://localhost:" + port + "/dogs/names/", HttpMethod.GET, request, String.class);
-        System.out.println("response status - "+response.getStatusCode());
+        //System.out.println("response Body - "+response.getBody().getClass() +" , headers - "+response.getHeaders());
         assertThat(response.getStatusCode(), equalTo(HttpStatus.OK));
     }
 
-    /*
-    @RestController
-public class ConsumeWebService {
-   @Autowired
-   RestTemplate restTemplate;
 
-   @RequestMapping(value = "/template/products")
-   public String getProductList() {
-      HttpHeaders headers = new HttpHeaders();
-      headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
-      HttpEntity <String> entity = new HttpEntity<String>(headers);
+    @Test
+    public void getDogBreedbyId() {
+        String plainCreds = "admin:password";
+        byte[] plainCredsBytes = plainCreds.getBytes();
+        byte[] base64CredsBytes = Base64.encodeBase64(plainCredsBytes);
+        String base64Creds = new String(base64CredsBytes);
+        HttpHeaders headers = new HttpHeaders();
+        headers.add("Authorization", "Basic " + base64Creds);
 
-      return restTemplate.exchange("
-         http://localhost:8080/products", HttpMethod.GET, entity, String.class).getBody();
-   }
-}
-    * */
+        HttpEntity<String> request = new HttpEntity<String>(headers);
+        ResponseEntity<Dog> response = restTemplate.exchange("http://localhost:" + port + "/dogbreedbyid?dogId=1", HttpMethod.GET, request, Dog.class);
+        System.out.println("response Body - "+response.getBody().getClass() +" , headers - "+response.getHeaders());
+        assertThat(response.getStatusCode(), equalTo(HttpStatus.OK));
+    }
+
 
 
     /*@Test
