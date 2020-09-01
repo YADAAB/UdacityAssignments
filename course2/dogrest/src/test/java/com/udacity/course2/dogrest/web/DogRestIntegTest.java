@@ -1,6 +1,6 @@
 package com.udacity.course2.dogrest.web;
 
-import com.udacity.course2.dogrest.entity.Dog;
+import org.apache.tomcat.util.codec.binary.Base64;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,10 +8,10 @@ import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMock
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.boot.web.server.LocalServerPort;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
+import org.springframework.http.*;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.util.Arrays;
 import java.util.List;
 
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -30,10 +30,37 @@ public class DogRestIntegTest {
 
     @Test
     public void getDogNames() {
-        ResponseEntity<List> response =  this.restTemplate.getForEntity("http://localhost:" + port + "/dogs/names/", List.class);
+        String plainCreds = "admin:password";
+        byte[] plainCredsBytes = plainCreds.getBytes();
+        byte[] base64CredsBytes = Base64.encodeBase64(plainCredsBytes);
+        String base64Creds = new String(base64CredsBytes);
+        HttpHeaders headers = new HttpHeaders();
+        headers.add("Authorization", "Basic " + base64Creds);
+
+        HttpEntity<String> request = new HttpEntity<String>(headers);
+        ResponseEntity<String> response = restTemplate.exchange("http://localhost:" + port + "/dogs/names/", HttpMethod.GET, request, String.class);
         System.out.println("response status - "+response.getStatusCode());
         assertThat(response.getStatusCode(), equalTo(HttpStatus.OK));
     }
+
+    /*
+    @RestController
+public class ConsumeWebService {
+   @Autowired
+   RestTemplate restTemplate;
+
+   @RequestMapping(value = "/template/products")
+   public String getProductList() {
+      HttpHeaders headers = new HttpHeaders();
+      headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
+      HttpEntity <String> entity = new HttpEntity<String>(headers);
+
+      return restTemplate.exchange("
+         http://localhost:8080/products", HttpMethod.GET, entity, String.class).getBody();
+   }
+}
+    * */
+
 
     /*@Test
     public void getLocation() {
